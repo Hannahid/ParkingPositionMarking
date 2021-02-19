@@ -9,7 +9,7 @@ import numpy as np
     dst = cv.bitwise_and(src1, src2[, dst[, mask]]
     src1:图1    src2:图2    mask：图1和图2'与'操作的掩码输出图像
 2.convert_gray_scale    # rgb转gray图
-3.detect_edges  # Canny检测参考我的博客 https://blog.csdn.net/sinat_29950703/article/details/107651267
+3.detect_edges  # Canny检测
 4.select_region # 针对当前任务手动指定区域
     cv2.circle(img,中心点(x,y),半径r,color,粗细) 根据给定的圆心和半径等画圆 画出指定点
 5.filter_region # 基于指定点剔除掉不需要的地方
